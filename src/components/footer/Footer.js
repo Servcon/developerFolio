@@ -13,14 +13,7 @@ export default function Footer() {
           {emoji("Made with ❤️ by Moncef")}
         </p>
         <p className={isDark ? "dark-mode footer-text" : "footer-text"}>
-          Theme by{" "}
-          <a
-            href="https://github.com/Servcon"
-            target="_blank"
-            rel="noreferrer"
-          >
-            developerFolio
-          </a>
+        © Copyright 2025. All Rights Reserved.
         </p>
       </div>
     </Fade>

@@ -52,12 +52,13 @@ const skillsSection = {
   subTitle: "Enthusiastic Full Stack Developer eager to explore and master every technology stack.",
   skills: [
     emoji(
-      "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
+      "⚡ Build and maintain responsive web applications aligned with client requirements."
     ),
-    emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
+    emoji("⚡ Collaborate with cross-functional teams to develop and deploy scalable solutions."),
     emoji(
-      "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean"
-    )
+      "⚡ Perform code reviews and maintain code quality across projects."
+    ),
+    emoji("⚡ Troubleshoot bugs and optimize performance for existing applications."),
   ],
 
   /* Make Sure to include correct Font Awesome Classname to view your icon
@@ -125,7 +126,6 @@ const educationInfo = {
       subHeader: "Bachelor of Science in Computer Science (program not completed)",
       duration: "September 2016 - April 2022",
       desc: "Took courses in Software Engineering, Web Security, Operating Systems, and other core areas of computer science.",
-      descBullets: [""]
     }
   ]
 };
@@ -161,25 +161,13 @@ const workExperiences = {
       company: "Servcon",
       companylogo: require("./assets/images/servcon.png"),
       date: "August 2023 – Present",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      desc: "Web Developer",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Build and maintain responsive web applications aligned with client requirements.",
+        "Collaborate with cross-functional teams(design, marketing, backend) to develop and deploy scalable solutions.",
+        "Perform code reviews and maintain code quality across projects.",
+        "Troubleshoot bugs and optimize performance for existing applications."
       ]
-    },
-    {
-      role: "Front-End Developer",
-      company: "Quora",
-      companylogo: require("./assets/images/quoraLogo.png"),
-      date: "May 2017 – May 2018",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-    },
-    {
-      role: "Software Engineer Intern",
-      company: "Airbnb",
-      companylogo: require("./assets/images/airbnbLogo.png"),
-      date: "Jan 2015 – Sep 2015",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
     }
   ]
 };
@@ -199,26 +187,86 @@ const bigProjects = {
   subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
   projects: [
     {
-      image: require("./assets/images/saayaHealthLogo.webp"),
-      projectName: "Saayahealth",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/logo.png"),
+      projectName: "Munaqasa",
+      projectDesc: "Developed a modern, responsive website and custom user portal for Munqasa. Implemented role-based access for different user types, including admins and clients, with secure authentication and personalized dashboards.",
       footerLink: [
         {
           name: "Visit Website",
-          url: "http://saayahealth.com/"
+          url: "https://marbu.in/munaqasa-v3/ar"
         }
         //  you can add extra buttons here.
       ]
     },
     {
-      image: require("./assets/images/nextuLogo.webp"),
-      projectName: "Nextu",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/NEW.PNG"),
+      projectName: "Alhenzab Law Firm",
+      projectDesc: "Led the full development of a bilingual website for Alhenzab. Built all key pages. Developed a custom admin panel to manage services, contact forms, and appointment approvals with automated email notifications.",
       footerLink: [
         {
           name: "Visit Website",
-          url: "http://nextu.se/"
+          url: "https://www.alhenzablaw.com/english"
         }
+        //  you can add extra buttons here.
+      ]
+    },
+    {
+      image: require("./assets/images/Tubo logo.png"),
+      projectName: "Tubo",
+      projectDesc: "Built a modern, responsive corporate website for Tubo with a clean design and intuitive layout. \nNew website is coming soon..",
+      footerLink: [
+        {
+          name: "Visit Website",
+          url: "https://tubo.qa/"
+        }
+        //  you can add extra buttons here.
+      ]
+    },
+    {
+      image: require("./assets/images/logow.png"),
+      projectName: "CE International",
+      projectDesc: "Developed a clean corporate website for CE International. Implemented a responsive design, service listings, and a contact form. Focused on performance optimization, RTL layout adjustments, and cross-browser compatibility to ensure a smooth user experience for both audiences.",
+      footerLink: [
+        {
+          name: "Visit Website",
+          url: "https://ce-international.com/"
+        }
+        //  you can add extra buttons here.
+      ]
+    },
+    {
+      image: require("./assets/images/EXONWEST BLUE.png"),
+      projectName: "Exonvest",
+      projectDesc: "Contributed to the website's UI design and implemented multi-language support for a seamless user experience across English and Arabic.",
+      footerLink: [
+        {
+          name: "Visit Website",
+          url: "https://exonvest.com/"
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/mlogo.png"),
+      projectName: "BG Eterno",
+      projectDesc: "Contributed to the website's UI design and implemented multi-language support for a seamless user experience across English and Arabic.",
+      footerLink: [
+        {
+          name: "Visit Website",
+          url: "https://eterno.bg-qa.com/"
+        }
+        //  you can add extra buttons here.
+      ]
+    },
+    {
+      image: require("./assets/images/logo-dark.png"),
+      projectName: "Mawateer",
+      projectDesc: "Developed a dynamic and responsive website for Mawateer, showcasing services with a clean layout and smooth navigation. Mawateer website coming soon..",
+      footerLink: [
+        {
+          name: "Visit Website",
+          url: "https://www.facebook.com/MawaterMotorsQatar/"
+        }
+        //  you can add extra buttons here.
       ]
     }
   ],
@@ -275,7 +323,7 @@ const achievementSection = {
       image: require("./assets/images/pwaLogo.webp"),
       imageAlt: "PWA Logo",
       footerLink: [
-        {name: "Certification", url: ""},
+        { name: "Certification", url: "" },
         {
           name: "Final Project",
           url: "https://pakistan-olx-1.firebaseapp.com/"
@@ -326,7 +374,7 @@ const talkSection = {
       event_url: "https://www.facebook.com/events/2339906106275053/"
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Podcast Section
@@ -337,7 +385,7 @@ const podcastSection = {
 
   // Please Provide with Your Podcast embeded Link
   podcast: [
-    "https://anchor.fm/codevcast/embed/episodes/DevStory---Saad-Pasta-from-Karachi--Pakistan-e9givv/a-a15itvo"
+   // "https://anchor.fm/codevcast/embed/episodes/DevStory---Saad-Pasta-from-Karachi--Pakistan-e9givv/a-a15itvo"
   ],
   display: true // Set false to hide this section, defaults to true
 };
