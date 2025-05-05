@@ -23,7 +23,7 @@ const greeting = {
   username: "Moncef Daoud",
   title: "Hi all, I'm Moncef",
   subTitle: emoji(
-    "A passionate Full Stack Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / Vuejs and some other cool libraries and frameworks."
+    "Passionate Full Stack Software Developer 🚀 with hands-on experience in building dynamic web and mobile applications using JavaScript, React.js, Node.js, Vue.js, and other modern libraries and frameworks."
   ),
   resumeLink:
     "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing", // Set to empty to hide the button
@@ -49,7 +49,7 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I do",
-  subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
+  subTitle: "Enthusiastic Full Stack Developer eager to explore and master every technology stack.",
   skills: [
     emoji(
       "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
@@ -114,19 +114,18 @@ const educationInfo = {
       logo: require("./assets/images/tunisian school in doha.webp"),
       subHeader: "High School Diploma in Mathematics",
       duration: "September 2006 - June 2015",
-      desc: "I was top 5 students in my Class",
+      desc: "Graduated among the top 5 students in class.",
       descBullets: [
-        "Loved Maths",
-        "Loved Science and Art"
+        "Demonstrated a strong passion for Mathematics, Science, and the Art"
       ]
     },
     {
       schoolName: "Medtech - Mediterranean Institue of Technology",
       logo: require("./assets/images/MEDTECH-LOGO-WHITE.png"),
-      subHeader: "Bachelor of Science in Computer Science",
+      subHeader: "Bachelor of Science in Computer Science (program not completed)",
       duration: "September 2016 - April 2022",
-      desc: "Sadly I didn't finish program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
-      descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
+      desc: "Took courses in Software Engineering, Web Security, Operating Systems, and other core areas of computer science.",
+      descBullets: [""]
     }
   ]
 };
@@ -316,7 +315,7 @@ const blogSection = {
 const talkSection = {
   title: "TALKS",
   subtitle: emoji(
-    "I LOVE TO SHARE MY LIMITED KNOWLEDGE AND GET A SPEAKER BADGE 😅"
+    "I enjoy sharing my knowledge, however limited it may be, and aspire to earn a speaker badge one day!"
   ),
 
   talks: [
@@ -334,7 +333,7 @@ const talkSection = {
 
 const podcastSection = {
   title: emoji("Podcast 🎙️"),
-  subtitle: "I LOVE TO TALK ABOUT MYSELF AND TECHNOLOGY",
+  subtitle: "I genuinely enjoy talking about technology, and yes, even about myself because every story and idea has the power to spark connection and insight.",
 
   // Please Provide with Your Podcast embeded Link
   podcast: [
@@ -355,7 +354,7 @@ const resumeSection = {
 const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle:
-    "Discuss a project or just want to say hi? My Inbox is open for all.",
+    "Whether it's discussing a project or simply saying hello, my inbox is always open.",
   number: "+974 66900812",
   email_address: "moncef@servcon.qa"
 };
