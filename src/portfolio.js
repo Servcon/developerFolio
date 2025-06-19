@@ -211,7 +211,7 @@ const bigProjects = {
     {
       image: require("./assets/images/Tubo logo.png"),
       projectName: "Tubo",
-      projectDesc: "Built a modern, responsive corporate website for Tubo with a clean design and intuitive layout. \nNew website is coming soon..",
+      projectDesc: "Built a modern, responsive corporate website for Tubo with a clean design and intuitive layout.",
       footerLink: [
         {
           name: "Visit Website",
@@ -263,6 +263,18 @@ const bigProjects = {
         {
           name: "Visit Website",
           url: "https://www.facebook.com/MawaterMotorsQatar/"
+        }
+        //  you can add extra buttons here.
+      ]
+    },
+    {
+      image: require("./assets/images/footer-logo.png"),
+      projectName: "Trendyphi",
+      projectDesc: "Developed a dynamic and responsive website for Trendyphi, showcasing their Talents with a clean layout and smooth navigation. Trendyphi website coming soon..",
+      footerLink: [
+        {
+          name: "Visit Website",
+          url: "https://www.trendyphi.com"
         }
         //  you can add extra buttons here.
       ]
